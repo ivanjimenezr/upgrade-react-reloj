@@ -1,10 +1,15 @@
 
 import './App.scss';
+import { Countdown } from './components/Countdown/Countdown';
+import { DigitalClock } from './components/DigitalClock/DigitalClock';
+import { Stopwatch } from './components/Stopwatch/Stopwatch';
 
 function App() {
   return (
     <div className="App">
-      Hola world
+      <DigitalClock />
+      <Countdown />
+      <Stopwatch />
     </div>
   );
 }
